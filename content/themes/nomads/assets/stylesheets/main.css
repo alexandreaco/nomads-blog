@@ -34,9 +34,11 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 24px;
+  text-shadow: -3px 2px 0px rgba(0, 43, 54, 0.11);
+  display: block;
 }
 
-/* line 51, ../sass/_base/typography.scss */
+/* line 53, ../sass/_base/typography.scss */
 .site__subtitle {
   color: #002B36;
   font-size: 0.625em;
@@ -47,6 +49,16 @@
 img {
   width: 100%;
   height: auto;
+}
+
+/* line 1, ../sass/_base/actions.scss */
+a {
+  color: #005DA6;
+  text-decoration: none;
+}
+/* line 5, ../sass/_base/actions.scss */
+a:hover {
+  text-decoration: line-through;
 }
 
 /* line 1, ../sass/_layout/default.scss */
@@ -80,7 +92,7 @@ body {
 
 /* line 1, ../sass/_layout/post.scss */
 .post {
-  margin-left: 15px;
+  margin-left: 33px;
 }
 
 /* line 5, ../sass/_layout/post.scss */
@@ -96,17 +108,27 @@ body {
   color: #FB433D;
   letter-spacing: 0.11188em;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* line 18, ../sass/_layout/post.scss */
+/* line 19, ../sass/_layout/post.scss */
 .post__content {
   font-family: "mononoki";
-  line-height: 1.3125em;
+  color: rgba(0, 43, 54, 0.78);
+  line-height: 1.4375em;
   font-size: 0.875em;
 }
-/* line 23, ../sass/_layout/post.scss */
+/* line 25, ../sass/_layout/post.scss */
 .post__content p {
-  margin-bottom: 0.9375em;
+  margin-bottom: 1.5em;
+}
+
+/* line 30, ../sass/_layout/post.scss */
+.post__meta {
+  font-family: "mononoki-i";
+  color: rgba(0, 43, 54, 0.78);
+  line-height: 1.4375em;
+  font-size: 0.875em;
 }
 
 /* line 1, ../sass/_layout/nav.scss */
@@ -133,4 +155,13 @@ body {
   margin: 83px auto 0 auto;
   width: 110px;
   text-align: center;
+  position: relative;
+}
+
+/* line 1, ../sass/_layout/pagination.scss */
+.pagination {
+  margin: 60px 0 60px 35px;
+  font-family: "mononoki";
+  font-size: 0.75em;
+  color: rgba(0, 43, 54, 0.78);
 }

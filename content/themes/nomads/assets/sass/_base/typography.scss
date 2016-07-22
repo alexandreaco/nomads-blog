@@ -46,6 +46,8 @@
   letter-spacing: em(1.92);
   text-transform: uppercase;
   margin-bottom: 24px;
+  text-shadow: -3px 2px 0px transparentize($color--navy, 0.89);
+  display: block;
 }
 
 .site__subtitle {

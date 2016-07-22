@@ -1,21 +1,17 @@
 /*
-Error: Undefined variable: "$font-family--post-title".
-        on line 11 of /Users/Alex/Sites/nomds-blog/content/themes/nomads/assets/sass/_layout/post.scss
+Error: Undefined variable: "$color--blue".
+        on line 2 of /Users/Alex/Sites/nomds-blog/content/themes/nomads/assets/sass/_base/actions.scss
 
-6:   margin-top: 38px;
-7:   margin-bottom: 66px;
-8: }
-9: 
-10: .post__title {
-11:   font-family: $font-family--post-title;
-12:   font-size: 26px;
-13:   color: $color--red;
-14:   letter-spacing: em(1.79);
-15:   text-decoration: none;
-16:   -webkit-font-smoothing: antialiased;
+1: a {
+2:   color: $color--blue;
+3:   text-decoration: none;
+4: 
+5:   &:hover {
+6:     text-decoration: line-through;
+7:   }
 
 Backtrace:
-/Users/Alex/Sites/nomds-blog/content/themes/nomads/assets/sass/_layout/post.scss:11
+/Users/Alex/Sites/nomds-blog/content/themes/nomads/assets/sass/_base/actions.scss:2
 /Users/Alex/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.19/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/Alex/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.19/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/Alex/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -70,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-family--post-title\".\A         on line 11 of /Users/Alex/Sites/nomds-blog/content/themes/nomads/assets/sass/_layout/post.scss\A \A 6:   margin-top: 38px;\A 7:   margin-bottom: 66px;\A 8: }\A 9: \A 10: .post__title {\A 11:   font-family: $font-family--post-title;\A 12:   font-size: 26px;\A 13:   color: $color--red;\A 14:   letter-spacing: em(1.79);\A 15:   text-decoration: none;\A 16:   -webkit-font-smoothing: antialiased;"; }
+  content: "Error: Undefined variable: \"$color--blue\".\A         on line 2 of /Users/Alex/Sites/nomds-blog/content/themes/nomads/assets/sass/_base/actions.scss\A \A 1: a {\A 2:   color: $color--blue;\A 3:   text-decoration: none;\A 4: \A 5:   &:hover {\A 6:     text-decoration: line-through;\A 7:   }"; }

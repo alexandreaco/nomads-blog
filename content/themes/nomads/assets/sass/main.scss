@@ -4,8 +4,10 @@ $font-family--nav: 'mononoki';
 
 $font-family--post-title: 'mononoki';
 $font-family--post: 'mononoki';
+$font-family--post-meta: 'mononoki-i';
 
 $font-size--post: 14;
+$font-size--pagination: 12;
 
 $width--site: 914px;
 $width--header: 313px;
@@ -16,11 +18,15 @@ $color--navy: #002B36;
 $color--blue: #005DA6;
 $color--creme: #FEFEFE;
 
+$color--text: transparentize($color--navy, .22);
+
 @import "_utils/index";
 
 @import "_base/typography";
 @import "_base/images";
+@import "_base/actions";
 
 @import "_layout/default";
 @import "_layout/post";
 @import "_layout/nav";
+@import "_layout/pagination";

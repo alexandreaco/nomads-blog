@@ -1,5 +1,5 @@
 .post {
-  margin-left: 15px;
+  margin-left: 33px;
 }
 
 .post__header {
@@ -13,14 +13,23 @@
   color: $color--red;
   letter-spacing: em(1.79);
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .post__content {
   font-family: $font-family--post;
-  line-height: em(21);
+  color: $color--text;
+  line-height: em(23);
   font-size: em($font-size--post);
 
   p {
-    margin-bottom: em(15);
+    margin-bottom: em(24);
   }
+}
+
+.post__meta {
+  font-family: $font-family--post-meta;
+  color: $color--text;
+  line-height: em(23);
+  font-size: em($font-size--post);
 }
