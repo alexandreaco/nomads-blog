@@ -1,0 +1,24 @@
+body {
+  background-color: $color--creme;
+}
+
+.site {
+  display: flex;
+  width: 100%;
+  max-width: $width--site;
+  margin: 0 auto;
+}
+
+.site__header {
+  display: flex;
+  height: 100vh;
+  min-width: $width--header;
+  min-height: 320px;
+  position: fixed;
+}
+
+.site__main {
+  width: $width--main;
+  position: relative;
+  left: $width--header;
+}

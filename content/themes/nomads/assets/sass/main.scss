@@ -1,0 +1,26 @@
+$font-family--site-title: 'mononoki';
+$font-family--site-subtitle: 'mononoki';
+$font-family--nav: 'mononoki';
+
+$font-family--post-title: 'mononoki';
+$font-family--post: 'mononoki';
+
+$font-size--post: 14;
+
+$width--site: 914px;
+$width--header: 313px;
+$width--main: calc(100% - 313px);
+
+$color--red: #FB433D;
+$color--navy: #002B36;
+$color--blue: #005DA6;
+$color--creme: #FEFEFE;
+
+@import "_utils/index";
+
+@import "_base/typography";
+@import "_base/images";
+
+@import "_layout/default";
+@import "_layout/post";
+@import "_layout/nav";

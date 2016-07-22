@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    <link rel="stylesheet" href="{{asset "stylesheets/ie.css"}}" />
+    <link rel="stylesheet" href="{{asset "stylesheets/print.css"}}" />
+    <link rel="stylesheet" href="{{asset "stylesheets/screen.css"}}" />
+    <link rel="stylesheet" href="{{asset "stylesheets/main.css"}}" />
+
+    {{ghost_head}}
+</head>
+<body class="{{body_class}} nav-closed">
+
+    {{{body}}}
+
+    {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    {{!-- Ghost outputs important scripts and data with this tag --}}
+    {{ghost_foot}}
+
+</body>
+</html>

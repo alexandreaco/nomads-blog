@@ -1,0 +1,26 @@
+.post {
+  margin-left: 15px;
+}
+
+.post__header {
+  margin-top: 38px;
+  margin-bottom: 66px;
+}
+
+.post__title {
+  font-family: $font-family--post-title;
+  font-size: 26px;
+  color: $color--red;
+  letter-spacing: em(1.79);
+  text-decoration: none;
+}
+
+.post__content {
+  font-family: $font-family--post;
+  line-height: em(21);
+  font-size: em($font-size--post);
+
+  p {
+    margin-bottom: em(15);
+  }
+}
